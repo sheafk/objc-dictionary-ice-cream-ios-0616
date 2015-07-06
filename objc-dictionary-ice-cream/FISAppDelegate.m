@@ -43,7 +43,7 @@
         }
     }
     
-    return [NSArray arrayWithArray:names];
+    return [names copy];
 }
 
 - (NSDictionary *)countsOfIceCream:(NSDictionary *)iceCreamByName {
@@ -55,7 +55,7 @@
         countsOfIceCream[iceCream] = [NSNumber numberWithInteger:currentNames.count];
     }
     
-    return [NSDictionary dictionaryWithDictionary:countsOfIceCream];
+    return [countsOfIceCream copy];
 }
 
 @end
