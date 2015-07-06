@@ -13,6 +13,7 @@
 		4D6BCA511B4B0BD800D98A01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D6BCA501B4B0BD800D98A01 /* Images.xcassets */; };
 		4D6BCA541B4B0BD800D98A01 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D6BCA521B4B0BD800D98A01 /* LaunchScreen.xib */; };
 		4D6BCA601B4B0BD800D98A01 /* objc_dictionary_ice_creamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6BCA5F1B4B0BD800D98A01 /* objc_dictionary_ice_creamTests.m */; };
+		AAA5C6FA15FD8184A9EF0B3A /* libPods-objc-dictionary-ice-creamTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0651ABF7998C1067D8EA32CE /* libPods-objc-dictionary-ice-creamTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0651ABF7998C1067D8EA32CE /* libPods-objc-dictionary-ice-creamTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-objc-dictionary-ice-creamTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6BCA401B4B0BD800D98A01 /* objc-dictionary-ice-cream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "objc-dictionary-ice-cream.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6BCA441B4B0BD800D98A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D6BCA451B4B0BD800D98A01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,6 +39,8 @@
 		4D6BCA591B4B0BD800D98A01 /* objc-dictionary-ice-creamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "objc-dictionary-ice-creamTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6BCA5E1B4B0BD800D98A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D6BCA5F1B4B0BD800D98A01 /* objc_dictionary_ice_creamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objc_dictionary_ice_creamTests.m; sourceTree = "<group>"; };
+		588DA03381F205462B78A7A6 /* Pods-objc-dictionary-ice-creamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objc-dictionary-ice-creamTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-objc-dictionary-ice-creamTests/Pods-objc-dictionary-ice-creamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC3CF4D579227D8A0999147A /* Pods-objc-dictionary-ice-creamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objc-dictionary-ice-creamTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-objc-dictionary-ice-creamTests/Pods-objc-dictionary-ice-creamTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAA5C6FA15FD8184A9EF0B3A /* libPods-objc-dictionary-ice-creamTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +68,8 @@
 				4D6BCA421B4B0BD800D98A01 /* objc-dictionary-ice-cream */,
 				4D6BCA5C1B4B0BD800D98A01 /* objc-dictionary-ice-creamTests */,
 				4D6BCA411B4B0BD800D98A01 /* Products */,
+				63A5E4186A1029458D1D8F95 /* Pods */,
+				90895249FC0C9474DAF88A3F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +121,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		63A5E4186A1029458D1D8F95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				588DA03381F205462B78A7A6 /* Pods-objc-dictionary-ice-creamTests.debug.xcconfig */,
+				AC3CF4D579227D8A0999147A /* Pods-objc-dictionary-ice-creamTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		90895249FC0C9474DAF88A3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0651ABF7998C1067D8EA32CE /* libPods-objc-dictionary-ice-creamTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D6BCA661B4B0BD800D98A01 /* Build configuration list for PBXNativeTarget "objc-dictionary-ice-creamTests" */;
 			buildPhases = (
+				8CEA4718E95AFB51627F7E3A /* Check Pods Manifest.lock */,
 				4D6BCA551B4B0BD800D98A01 /* Sources */,
 				4D6BCA561B4B0BD800D98A01 /* Frameworks */,
 				4D6BCA571B4B0BD800D98A01 /* Resources */,
+				3FADCFCD6B75B381EDF22BD7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,6 +234,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FADCFCD6B75B381EDF22BD7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-objc-dictionary-ice-creamTests/Pods-objc-dictionary-ice-creamTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CEA4718E95AFB51627F7E3A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4D6BCA3C1B4B0BD800D98A01 /* Sources */ = {
@@ -359,6 +418,7 @@
 		};
 		4D6BCA671B4B0BD800D98A01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 588DA03381F205462B78A7A6 /* Pods-objc-dictionary-ice-creamTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -378,6 +438,7 @@
 		};
 		4D6BCA681B4B0BD800D98A01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC3CF4D579227D8A0999147A /* Pods-objc-dictionary-ice-creamTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
