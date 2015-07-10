@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		4D6BCA461B4B0BD800D98A01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6BCA451B4B0BD800D98A01 /* main.m */; };
-		4D6BCA491B4B0BD800D98A01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6BCA481B4B0BD800D98A01 /* AppDelegate.m */; };
+		4D6BCA491B4B0BD800D98A01 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6BCA481B4B0BD800D98A01 /* FISAppDelegate.m */; };
 		4D6BCA4F1B4B0BD800D98A01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6BCA4D1B4B0BD800D98A01 /* Main.storyboard */; };
 		4D6BCA511B4B0BD800D98A01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D6BCA501B4B0BD800D98A01 /* Images.xcassets */; };
 		4D6BCA541B4B0BD800D98A01 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D6BCA521B4B0BD800D98A01 /* LaunchScreen.xib */; };
-		4D6BCA601B4B0BD800D98A01 /* objc_dictionary_ice_creamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6BCA5F1B4B0BD800D98A01 /* objc_dictionary_ice_creamTests.m */; };
+		4D6BCA6A1B4B0FAA00D98A01 /* FISAppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6BCA691B4B0FAA00D98A01 /* FISAppDelegateSpec.m */; };
 		AAA5C6FA15FD8184A9EF0B3A /* libPods-objc-dictionary-ice-creamTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0651ABF7998C1067D8EA32CE /* libPods-objc-dictionary-ice-creamTests.a */; };
 /* End PBXBuildFile section */
 
@@ -31,14 +31,14 @@
 		4D6BCA401B4B0BD800D98A01 /* objc-dictionary-ice-cream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "objc-dictionary-ice-cream.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6BCA441B4B0BD800D98A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D6BCA451B4B0BD800D98A01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4D6BCA471B4B0BD800D98A01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4D6BCA481B4B0BD800D98A01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D6BCA471B4B0BD800D98A01 /* FISAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
+		4D6BCA481B4B0BD800D98A01 /* FISAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
 		4D6BCA4E1B4B0BD800D98A01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D6BCA501B4B0BD800D98A01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4D6BCA531B4B0BD800D98A01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4D6BCA591B4B0BD800D98A01 /* objc-dictionary-ice-creamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "objc-dictionary-ice-creamTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6BCA5E1B4B0BD800D98A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D6BCA5F1B4B0BD800D98A01 /* objc_dictionary_ice_creamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objc_dictionary_ice_creamTests.m; sourceTree = "<group>"; };
+		4D6BCA691B4B0FAA00D98A01 /* FISAppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegateSpec.m; sourceTree = "<group>"; };
 		588DA03381F205462B78A7A6 /* Pods-objc-dictionary-ice-creamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objc-dictionary-ice-creamTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-objc-dictionary-ice-creamTests/Pods-objc-dictionary-ice-creamTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC3CF4D579227D8A0999147A /* Pods-objc-dictionary-ice-creamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objc-dictionary-ice-creamTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-objc-dictionary-ice-creamTests/Pods-objc-dictionary-ice-creamTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,8 +85,8 @@
 		4D6BCA421B4B0BD800D98A01 /* objc-dictionary-ice-cream */ = {
 			isa = PBXGroup;
 			children = (
-				4D6BCA471B4B0BD800D98A01 /* AppDelegate.h */,
-				4D6BCA481B4B0BD800D98A01 /* AppDelegate.m */,
+				4D6BCA471B4B0BD800D98A01 /* FISAppDelegate.h */,
+				4D6BCA481B4B0BD800D98A01 /* FISAppDelegate.m */,
 				4D6BCA4D1B4B0BD800D98A01 /* Main.storyboard */,
 				4D6BCA501B4B0BD800D98A01 /* Images.xcassets */,
 				4D6BCA521B4B0BD800D98A01 /* LaunchScreen.xib */,
@@ -107,7 +107,7 @@
 		4D6BCA5C1B4B0BD800D98A01 /* objc-dictionary-ice-creamTests */ = {
 			isa = PBXGroup;
 			children = (
-				4D6BCA5F1B4B0BD800D98A01 /* objc_dictionary_ice_creamTests.m */,
+				4D6BCA691B4B0FAA00D98A01 /* FISAppDelegateSpec.m */,
 				4D6BCA5D1B4B0BD800D98A01 /* Supporting Files */,
 			);
 			path = "objc-dictionary-ice-creamTests";
@@ -273,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D6BCA491B4B0BD800D98A01 /* AppDelegate.m in Sources */,
+				4D6BCA491B4B0BD800D98A01 /* FISAppDelegate.m in Sources */,
 				4D6BCA461B4B0BD800D98A01 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D6BCA601B4B0BD800D98A01 /* objc_dictionary_ice_creamTests.m in Sources */,
+				4D6BCA6A1B4B0FAA00D98A01 /* FISAppDelegateSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
