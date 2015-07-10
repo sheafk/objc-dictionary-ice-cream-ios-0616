@@ -36,26 +36,26 @@
                                       @"Jim"    : @"Natural Vanilla"            ,
                                       @"Mark"   : @"Cookies 'n Cream"          };
     
-    NSMutableArray *names = [ @[] mutableCopy];
+    NSMutableArray *names = [[NSMutableArray alloc] init];
     for (NSString *key in [iceCreamByName allKeys]) {
         if ([iceCreamByName[key] isEqualToString:iceCream]) {
             [names addObject:key];
         }
     }
     
-    return [names copy];
+    return [NSArray arrayWithArray:names];
 }
 
 - (NSDictionary *)countsOfIceCream:(NSDictionary *)iceCreamByName {
     
-    NSMutableDictionary *countsOfIceCream = [ @{} mutableCopy];
+    NSMutableDictionary *countsOfIceCream = [[NSMutableDictionary alloc] init];
     for (NSString *key in iceCreamByName) {
         NSString *iceCream = iceCreamByName[key];
         NSArray *currentNames = [self namesForIceCream:iceCream];
         countsOfIceCream[iceCream] = [NSNumber numberWithInteger:currentNames.count];
     }
     
-    return [countsOfIceCream copy];
+    return [NSDictionary dictionaryWithDictionary:countsOfIceCream];
 }
 
 @end

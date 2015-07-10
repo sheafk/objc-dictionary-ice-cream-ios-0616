@@ -6,7 +6,7 @@
 2. Write methods to interpret the information in a dictionary.
 3. Practice converting to a mutable dictionary and modifying it programmatically.
 
-## Premise
+## Introduction
 
 Some of the instructors are planning a summer ice cream party. Mark has collected some information on everyone's favorite ice cream flavors (including his own), but he needs help analyzing the list to know how much of each flavor to buy!
 
