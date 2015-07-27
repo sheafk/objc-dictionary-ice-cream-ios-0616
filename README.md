@@ -21,8 +21,8 @@ Mark — Cookies 'n Cream duh
 ## Instructions
 
 1. Open the `*.xcworkspace` file and *without* looking at the tests just yet, navigate to the `FISAppDelegate.h` header file and declare two methods:
-  * `namesForIceCream:` which takes an `NSString` argument and return an `NSArray` object.
-  * `countsOfIceCream:` which takes an `NSDictionary` argument and returns an `NSDictionary` object.
+  * `namesForIceCream:` which takes an `NSString` argument `iceCream` and returns an `NSArray` object.
+  * `countsOfIceCream:` which takes an `NSDictionary` argument `iceCreamByName` and returns an `NSDictionary` object.
 
 2. In the `FISAppDelegate.m` implementation file, use autocomplete to define the method bodies to return `nil`. At the start of the `namesForIceCream:` method, translate Mark's notes into an `NSDictionary` with each name as a key with that person's preferred ice cream flavor as the associated value. 
 
