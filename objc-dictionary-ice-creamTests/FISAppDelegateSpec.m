@@ -1,10 +1,4 @@
-//
 //  FISAppDelegateSpec.m
-//  objc-dictionary-ice-cream
-//
-//  Created by Mark Murray on 7/6/15.
-//  Copyright 2015 Mark Murray. All rights reserved.
-//
 
 #import <Foundation/Foundation.h>
 #import "Specta.h"
