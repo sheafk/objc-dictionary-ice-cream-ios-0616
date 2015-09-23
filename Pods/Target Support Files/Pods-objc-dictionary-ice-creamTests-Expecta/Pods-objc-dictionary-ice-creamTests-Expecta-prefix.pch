@@ -1,5 +1,0 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#endif
-
-#import "Pods-objc-dictionary-ice-creamTests-environment.h"
