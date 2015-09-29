@@ -8,6 +8,7 @@ end
 target 'objc-dictionary-ice-creamTests' do
     pod 'Specta'
     pod 'Expecta'
+    pod 'Expecta+Collections'
 
 end
 

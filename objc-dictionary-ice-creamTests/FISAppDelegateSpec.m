@@ -4,6 +4,7 @@
 #import "Specta.h"
 #define EXP_SHORTHAND
 #import "Expecta/Expecta.h"
+#import <EXPMatchers+equalInAnyOrder.h>
 
 #import "FISAppDelegate.h"
 
@@ -34,26 +35,26 @@ describe(@"FISAppDelegate", ^{
     });
     
     describe(@"namesForIceCream:", ^{
-        it (@"returns an NSArray instance", ^{
-            expect([appDelegate namesForIceCream:@"Cookies 'n Cream"]).to.beKindOf([NSArray class]);
+        it(@"returns an array containing 'Joe' when 'Peanut Butter and Chocolate' is submitted as the argument", ^{
+            NSArray *result = [appDelegate namesForIceCream:@"Peanut Butter and Chocolate"];
+            
+            expect(result).to.equalInAnyOrder(@[ @"Joe" ]);
         });
         
-        it(@"returns an array of a name who likes the submitted flavor", ^{
-            expect([appDelegate namesForIceCream:@"Cookies 'n Cream"]).to.contain(@"Mark");
+        it(@"returns an array containing 'Sophie' and 'Tom' when 'Mexican Chocolate' is submitted as the argument", ^{
+            NSArray *result = [appDelegate namesForIceCream:@"Mexican Chocolate"];
+            
+            expect(result).to.equalInAnyOrder(@[ @"Sophie", @"Tom" ]);
         });
         
-        it(@"returns an array of multiple names who like the submitted flavor", ^{
-            expect([appDelegate namesForIceCream:@"Natural Vanilla"]).to.contain(@"Deniz");
-            expect([appDelegate namesForIceCream:@"Natural Vanilla"]).to.contain(@"Tim");
-            expect([appDelegate namesForIceCream:@"Natural Vanilla"]).to.contain(@"Jim");
+        it(@"returns an array containing 'Deniz', 'Tim', and 'Jim' when 'Natural Vanilla' is submitted as the argument", ^{
+            NSArray *result = [appDelegate namesForIceCream:@"Natural Vanilla"];
+            
+            expect(result).to.equalInAnyOrder(@[ @"Deniz", @"Tim", @"Jim" ]);
         });
     });
     
     describe(@"countsOfIceCream:", ^{
-        it(@"returns an NSDictionary instance", ^{
-            expect([appDelegate countsOfIceCream:iceCreamByName]).to.beKindOf([NSDictionary class]);
-        });
-        
         it(@"returns a dictionary with four keys", ^{
             expect([[appDelegate countsOfIceCream:iceCreamByName] allKeys].count).to.equal(4);
         });
