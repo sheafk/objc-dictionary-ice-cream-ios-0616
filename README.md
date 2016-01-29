@@ -33,4 +33,4 @@ Mark — Cookies 'n Cream duh
 5. Write the `countsOfIceCream` body which returns a dictionary of the number (value) of people who like each flavor of ice cream (key). Look at the `countsByIceCream` dictionary in the `FISAppDelegateSpec` file to better understand what the test is expecting.  
   **Hint:** *Try using the* `namesForIceCream:` *method that you just wrote to get a list of names for each ice cream flavor by calling it on* `self`. *This method returns an array of names which you can then count. Remember that you have to convert integer values to* `NSNumber` *in order to store them in a collection.*
 
-<a href='https://learn.co/lessons/objc-dictionary-ice-cream' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/objc-dictionary-ice-cream' title='Dictionary Basics: Ice Cream'>Dictionary Basics: Ice Cream</a> on Learn.co and start learning to code for free.</p>
